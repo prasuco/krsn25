@@ -1,13 +1,8 @@
 
-
-
 function App() {
-
-
   return (
     <>
       hello krsnji
-
     </>
   )
 }
