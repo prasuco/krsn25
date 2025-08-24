@@ -1,1 +1,78 @@
 @import "tailwindcss";
+
+@theme {
+  /* 🌶️ Primary – Pumpkin Spice */
+  --color-primary-50: #fff8f2;
+  --color-primary-100: #ffeede;
+  --color-primary-200: #ffd6b0;
+  --color-primary-300: #ffb873;
+  --color-primary-400: #ff9440;
+  --color-primary-500: #e86e1d;
+  /* main pumpkin spice */
+  --color-primary-600: #c45314;
+  --color-primary-700: #9a3f11;
+  --color-primary-800: #733110;
+  --color-primary-900: #4a220b;
+  --color-primary-950: #2b1407;
+
+  /* ☕ Secondary – Cream / Chai Latte */
+  --color-secondary-50: #fffdf9;
+  --color-secondary-100: #fff8ed;
+  --color-secondary-200: #fcefdc;
+  --color-secondary-300: #f9e0b9;
+  --color-secondary-400: #f4c98a;
+  --color-secondary-500: #e2a85c;
+  /* warm accent */
+  --color-secondary-600: #c8853a;
+  --color-secondary-700: #9f632a;
+  --color-secondary-800: #774a21;
+  --color-secondary-900: #523216;
+  --color-secondary-950: #2d1a0a;
+
+  /* ⚪ Neutral / UI Grays */
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f4f4f5;
+  --color-neutral-200: #e4e4e7;
+  --color-neutral-300: #d4d4d8;
+  --color-neutral-400: #a1a1aa;
+  --color-neutral-500: #71717a;
+  --color-neutral-600: #52525b;
+  --color-neutral-700: #3f3f46;
+  --color-neutral-800: #27272a;
+  --color-neutral-900: #18181b;
+  --color-neutral-950: #0a0a0a;
+
+  /* ✅ Semantic Feedback Colors */
+  --color-success-500: #22c55e;
+  --color-warning-500: #f59e0b;
+  --color-danger-500: #ef4444;
+  --color-info-500: #3b82f6;
+
+  /* 🎨 Semantic Tokens (Light) */
+  --color-background: var(--color-neutral-50);
+  --color-foreground: var(--color-neutral-900);
+  --color-border: var(--color-neutral-200);
+  --color-ring: var(--color-primary-500);
+
+  --color-btn-bg: var(--color-primary-500);
+  --color-btn-text: #ffffff;
+  --color-btn-hover: var(--color-primary-600);
+
+  --color-card-bg: #ffffff;
+  --color-card-text: var(--color-neutral-900);
+}
+
+/* 🌙 Dark Mode */
+@theme dark {
+  --color-background: var(--color-neutral-950);
+  --color-foreground: var(--color-neutral-50);
+  --color-border: var(--color-neutral-800);
+  --color-ring: var(--color-primary-400);
+
+  --color-btn-bg: var(--color-primary-400);
+  --color-btn-text: #000000;
+  --color-btn-hover: var(--color-primary-300);
+
+  --color-card-bg: var(--color-neutral-900);
+  --color-card-text: var(--color-neutral-50);
+}
