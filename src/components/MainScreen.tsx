@@ -10,14 +10,13 @@ const MainScreen = () => {
 
         <section className="space-y-8">
           <div className="text-3xl md:text-4xl font-medium text-background leading-relaxed">
-            अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः।<br />
-            प्राणापानसमायुक्तो पचाम्यन्नं चतुर्विधम्।।
+            कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।
+            <br />
+            मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥
           </div>
 
           <div className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            "Becoming the fire of digestion in the bodies of all living beings,
-            and joining with the vital airs (prana and apana),
-            I digest the four kinds of food."
+            You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty."
           </div>
         </section>
       </article>
