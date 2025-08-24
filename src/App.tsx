@@ -1,9 +1,8 @@
+import MainScreen from "./components/MainScreen"
 
 function App() {
   return (
-    <>
-      hello krsnji
-    </>
+<MainScreen />
   )
 }
 
