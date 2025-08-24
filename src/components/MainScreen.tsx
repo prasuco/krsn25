@@ -16,12 +16,15 @@ const MainScreen = () => {
           </div>
 
           <div className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty."
+            You have a right to perform your prescribed duty, but you are not
+            entitled to the fruits of action. Never consider yourself the cause
+            of the results of your activities, and never be attached to not
+            doing your duty."
           </div>
         </section>
       </article>
     </main>
-  )
-}
+  );
+};
 
-export default MainScreen
+export default MainScreen;

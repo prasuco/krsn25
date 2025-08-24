@@ -1,9 +1,7 @@
-import MainScreen from "./components/MainScreen"
+import MainScreen from "./components/MainScreen";
 
 function App() {
-  return (
-    <MainScreen />
-  )
+  return <MainScreen />;
 }
 
-export default App
+export default App;
