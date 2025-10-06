@@ -7,3 +7,11 @@ A simple chrome extestion that shows 25 hand picked krishna quotes from bhagavad
 - motion: for beatiful animations.
 
 
+### how to run:
+```sh
+npm run dev
+```
+### how to build: 
+```sh 
+npm run build
+```
